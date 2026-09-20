@@ -11,5 +11,6 @@ let package = Package(
     ],
     targets: [
         .target(name: "EFCountingLabel", path: "EFCountingLabel"),
-    ]
+    ],
+    swiftLanguageModes: [.v5]
 )
